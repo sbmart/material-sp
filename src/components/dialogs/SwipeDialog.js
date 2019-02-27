@@ -95,7 +95,7 @@ class SwipeDialog extends Component {
       <BaseDialog {...this.props}>
         <div className={classes.container}>
           <div className={classes.gutterBottom}>
-            <img width={100} src={logo} />
+            <img width={100} src={logo}  alt='' />
           </div>
           <div>
             <AutoPlaySwipeableViews
@@ -133,7 +133,7 @@ class SwipeDialog extends Component {
             <Typography style={{textTransform: 'uppercase'}} color='secondary' gutterBottom>
               {tutorialSteps[activeStep].label}
             </Typography>
-            <Typography variant="body1" gutterBottom>
+            <Typography variant="body2" gutterBottom>
               {tutorialSteps[activeStep].description}
             </Typography>
           </div>

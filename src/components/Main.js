@@ -130,7 +130,7 @@ class Main extends Component {
                     <Typography style={{textTransform: 'uppercase'}} color='secondary' gutterBottom>
                       First title
                     </Typography>
-                    <Typography variant="body1" gutterBottom>
+                    <Typography variant="body2" gutterBottom>
                       A first title style <br/> with two lines
                     </Typography>
                   </div>
@@ -147,7 +147,7 @@ class Main extends Component {
                     <Typography style={{textTransform: 'uppercase'}} color='secondary' gutterBottom>
                       Another box
                     </Typography>
-                    <Typography variant="body1" gutterBottom>
+                    <Typography variant="body2" gutterBottom>
                       A default box
                     </Typography>
                   </div>
@@ -164,7 +164,7 @@ class Main extends Component {
                     <Typography style={{textTransform: 'uppercase'}} color='secondary' gutterBottom>
                       A box with a carousel
                     </Typography>
-                    <Typography variant="body1" gutterBottom>
+                    <Typography variant="body2" gutterBottom>
                       If you click in Getting Started, you will see a nice carousel
                     </Typography>
                   </div>
@@ -186,7 +186,7 @@ class Main extends Component {
                           <Typography color='secondary' gutterBottom>
                             Full box
                           </Typography>
-                          <Typography variant="body1" gutterBottom>
+                          <Typography variant="body2" gutterBottom>
                             This is an example of a full-width box
                           </Typography>
                         </div>
